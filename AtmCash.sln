@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{714FF2F4-6C59-4417-A78F-56F2DCFD78EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.Api", "src\AtmCash.Api\AtmCash.Api.csproj", "{AEE9749C-7BDA-48EF-B350-09647764D9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.Application", "src\AtmCash.Application\AtmCash.Application.csproj", "{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.Domain", "src\AtmCash.Domain\AtmCash.Domain.csproj", "{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.Infrastructure", "src\AtmCash.Infrastructure\AtmCash.Infrastructure.csproj", "{55596F15-419F-440C-81C5-DB71B7AE41E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E62C7E98-8D7D-4126-B368-9A5106300339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.IntegrationTests", "tests\AtmCash.IntegrationTests\AtmCash.IntegrationTests.csproj", "{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmCash.UnitTests", "tests\AtmCash.UnitTests\AtmCash.UnitTests.csproj", "{3A5C8432-B2D2-4F77-A108-8432958718AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE9749C-7BDA-48EF-B350-09647764D9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE9749C-7BDA-48EF-B350-09647764D9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE9749C-7BDA-48EF-B350-09647764D9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE9749C-7BDA-48EF-B350-09647764D9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55596F15-419F-440C-81C5-DB71B7AE41E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55596F15-419F-440C-81C5-DB71B7AE41E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55596F15-419F-440C-81C5-DB71B7AE41E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55596F15-419F-440C-81C5-DB71B7AE41E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5C8432-B2D2-4F77-A108-8432958718AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5C8432-B2D2-4F77-A108-8432958718AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5C8432-B2D2-4F77-A108-8432958718AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5C8432-B2D2-4F77-A108-8432958718AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEE9749C-7BDA-48EF-B350-09647764D9CA} = {714FF2F4-6C59-4417-A78F-56F2DCFD78EA}
+		{D78DA230-C82A-4CCC-BCA2-150DDAD10FFD} = {714FF2F4-6C59-4417-A78F-56F2DCFD78EA}
+		{FB2E3AD1-06A5-4246-ABF4-03FFD6C3AB2F} = {714FF2F4-6C59-4417-A78F-56F2DCFD78EA}
+		{55596F15-419F-440C-81C5-DB71B7AE41E9} = {714FF2F4-6C59-4417-A78F-56F2DCFD78EA}
+		{896A8B35-DBAA-48BD-BBB4-B0EEA9C43213} = {E62C7E98-8D7D-4126-B368-9A5106300339}
+		{3A5C8432-B2D2-4F77-A108-8432958718AD} = {E62C7E98-8D7D-4126-B368-9A5106300339}
+	EndGlobalSection
+EndGlobal

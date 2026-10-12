@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--
+      GHSA-rvv3-g6hj-g44x: AutoMapper DoS via uncontrolled recursion when mapping deeply nested object graphs.
+      Only fixed in 15.1.1+, which is commercially licensed. This service maps its own flat entities to flat DTOs and
+      never maps caller-supplied object graphs, so the issue is not reachable. See README "Known limitations".
+    -->
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-rvv3-g6hj-g44x" />
+  </ItemGroup>
+</Project>
